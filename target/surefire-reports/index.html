@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Java\Maven\SeleniumAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="navigationBarElectronicsClickTest">navigationBarElectronicsClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="navigationBarFashionClickTest">navigationBarFashionClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="navigationBarPrimeClickTest">navigationBarPrimeClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.RegistrationTest" class="method navigator-link" hash-for-method="RegistrionFormTest(Rajib, 9932456789, xyz.abc@gmail.com, Rajib#2021)">RegistrionFormTest(Rajib, 9932456789, xyz.abc@gmail.com, Rajib#2021)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.CareersTest" class="method navigator-link" hash-for-method="careersSearchJobTest">careersSearchJobTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="contectWithUsFacebookClickTest">contectWithUsFacebookClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="contectWithUsInstagramClickTest">contectWithUsInstagramClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="contectWithUsTwitterClickTest">contectWithUsTwitterClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="enterSearchText(iphone)">enterSearchText(iphone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="navigationBarBestSellerClickTest">navigationBarBestSellerClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumAssignment.tests.HomeTest" class="method navigator-link" hash-for-method="navigationBarMobilesClickTest">navigationBarMobilesClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.SeleniumAssignment.tests.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationBarElectronicsClickTest">
+                  </a> <!-- navigationBarElectronicsClickTest -->
+                  <span class="method-name">navigationBarElectronicsClickTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in]
+	at com.SeleniumAssignment.tests.HomeTest.navigationBarElectronicsClickTest(HomeTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationBarFashionClickTest">
+                  </a> <!-- navigationBarFashionClickTest -->
+                  <span class="method-name">navigationBarFashionClickTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Amazon Fashion: Clothing, Footwear and Accessories online for Men, Women and Kids]
+	at com.SeleniumAssignment.tests.HomeTest.navigationBarFashionClickTest(HomeTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationBarPrimeClickTest">
+                  </a> <!-- navigationBarPrimeClickTest -->
+                  <span class="method-name">navigationBarPrimeClickTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Prime&quot;}
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-PG02NJQY&apos;, ip: &apos;192.168.32.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\RAJIBM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbefa5e2a2492ffd63a81f01fb44c30b
+*** Element info: {Using=link text, value=Prime}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.SeleniumAssignment.pages.HomePage.clickPrime(HomePage.java:75)
+	at com.SeleniumAssignment.tests.HomeTest.navigationBarPrimeClickTest(HomeTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumAssignment.tests.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contectWithUsFacebookClickTest">
+                  </a> <!-- contectWithUsFacebookClickTest -->
+                  <span class="method-name">contectWithUsFacebookClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contectWithUsInstagramClickTest">
+                  </a> <!-- contectWithUsInstagramClickTest -->
+                  <span class="method-name">contectWithUsInstagramClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contectWithUsTwitterClickTest">
+                  </a> <!-- contectWithUsTwitterClickTest -->
+                  <span class="method-name">contectWithUsTwitterClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterSearchText(iphone)">
+                  </a> <!-- enterSearchText(iphone) -->
+                  <span class="method-name">enterSearchText</span>
+                  <span class="parameters">(iphone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationBarBestSellerClickTest">
+                  </a> <!-- navigationBarBestSellerClickTest -->
+                  <span class="method-name">navigationBarBestSellerClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationBarMobilesClickTest">
+                  </a> <!-- navigationBarMobilesClickTest -->
+                  <span class="method-name">navigationBarMobilesClickTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumAssignment.tests.CareersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="careersSearchJobTest">
+                  </a> <!-- careersSearchJobTest -->
+                  <span class="method-name">careersSearchJobTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumAssignment.tests.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrionFormTest(Rajib, 9932456789, xyz.abc@gmail.com, Rajib#2021)">
+                  </a> <!-- RegistrionFormTest(Rajib, 9932456789, xyz.abc@gmail.com, Rajib#2021) -->
+                  <span class="method-name">RegistrionFormTest</span>
+                  <span class="parameters">(Rajib, 9932456789, xyz.abc@gmail.com, Rajib#2021)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Java\Maven\SeleniumAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;BrowserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;searchText&quot; value=&quot;iphone&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Rajib#2021&quot;/&gt;
+    &lt;parameter name=&quot;phoneNumber&quot; value=&quot;9932456789&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Rajib&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;xyz.abc@gmail.com&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.SeleniumAssignment.tests.HomeTest&quot;/&gt;
+      &lt;class name=&quot;com.SeleniumAssignment.tests.CareersTest&quot;/&gt;
+      &lt;class name=&quot;com.SeleniumAssignment.tests.RegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">careers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">careersSearchJobTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">footer</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">contectWithUsFacebookClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">contectWithUsInstagramClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">contectWithUsTwitterClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">registration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegistrionFormTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegistrionFormTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">careersSearchJobTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">contectWithUsFacebookClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">contectWithUsInstagramClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">contectWithUsTwitterClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterSearchText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarBestSellerClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarElectronicsClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarFashionClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarMobilesClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarPrimeClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">top</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterSearchText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarBestSellerClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarElectronicsClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarFashionClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarMobilesClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">navigationBarPrimeClickTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">util</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegistrionFormTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'contectWithUsFacebookClickTest')
+data.setCell(0, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(0, 3, 30438);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'careersSearchJobTest')
+data.setCell(1, 2, 'com.SeleniumAssignment.tests.CareersTest')
+data.setCell(1, 3, 14051);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'navigationBarPrimeClickTest')
+data.setCell(2, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(2, 3, 10215);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'contectWithUsTwitterClickTest')
+data.setCell(3, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(3, 3, 8715);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigationBarFashionClickTest')
+data.setCell(4, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(4, 3, 7678);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'contectWithUsInstagramClickTest')
+data.setCell(5, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(5, 3, 7420);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'navigationBarMobilesClickTest')
+data.setCell(6, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(6, 3, 5192);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'navigationBarElectronicsClickTest')
+data.setCell(7, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(7, 3, 4036);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'RegistrionFormTest')
+data.setCell(8, 2, 'com.SeleniumAssignment.tests.RegistrationTest')
+data.setCell(8, 3, 2617);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'enterSearchText')
+data.setCell(9, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(9, 3, 2354);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'navigationBarBestSellerClickTest')
+data.setCell(10, 2, 'com.SeleniumAssignment.tests.HomeTest')
+data.setCell(10, 3, 1810);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SeleniumAssignment.tests.CareersTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">endTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.SeleniumAssignment.tests.RegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setExtentReport</span>
+                <br/>
+                <span class="ignored-method-name">endTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumAssignment.tests.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setExtentReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">2751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contectWithUsFacebookClickTest</span>
+                <span class="method-start">10153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=contectWithUsFacebookClickTest status=SUCCESS method=HomeTest.contectWithUsFacebook...)</span>
+                <span class="method-start">40592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">40594 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">40719 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">41907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contectWithUsInstagramClickTest</span>
+                <span class="method-start">51274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=contectWithUsInstagramClickTest status=SUCCESS method=HomeTest.contectWithUsInstagr...)</span>
+                <span class="method-start">58694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">58695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">58825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">60011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contectWithUsTwitterClickTest</span>
+                <span class="method-start">64448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=contectWithUsTwitterClickTest status=SUCCESS method=HomeTest.contectWithUsTwitterCl...)</span>
+                <span class="method-start">73163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">73164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">73270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">74476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterSearchText(iphone)</span>
+                <span class="method-start">79697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">82052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=enterSearchText status=SUCCESS method=HomeTest.enterSearchText(java.lang.String)[pr...)</span>
+                <span class="method-start">82052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">82153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">83334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigationBarBestSellerClickTest</span>
+                <span class="method-start">88911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=navigationBarBestSellerClickTest status=SUCCESS method=HomeTest.navigationBarBestSe...)</span>
+                <span class="method-start">90721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">90722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">90834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">91983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigationBarElectronicsClickTest</span>
+                <span class="method-start">98141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=navigationBarElectronicsClickTest status=FAILURE method=HomeTest.navigationBarElect...)</span>
+                <span class="method-start">102180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">102288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">102423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">103608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigationBarFashionClickTest</span>
+                <span class="method-start">110094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=navigationBarFashionClickTest status=FAILURE method=HomeTest.navigationBarFashionCl...)</span>
+                <span class="method-start">117773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">117886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">118004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">119192 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigationBarMobilesClickTest</span>
+                <span class="method-start">128746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">133938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=navigationBarMobilesClickTest status=SUCCESS method=HomeTest.navigationBarMobilesCl...)</span>
+                <span class="method-start">133938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">134067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">135271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigationBarPrimeClickTest</span>
+                <span class="method-start">138000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=navigationBarPrimeClickTest status=FAILURE method=HomeTest.navigationBarPrimeClickT...)</span>
+                <span class="method-start">148216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">148434 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumAssignment.tests.CareersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">148560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">149755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">careersSearchJobTest</span>
+                <span class="method-start">156165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">170216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=careersSearchJobTest status=SUCCESS method=CareersTest.careersSearchJobTest()[pri:0...)</span>
+                <span class="method-start">170216 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumAssignment.tests.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationBrowsers(chrome)</span>
+                <span class="method-start">170333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">urlLunch</span>
+                <span class="method-start">171524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrionFormTest(Rajib, 9932456789, xyz.abc@gmail.com, Rajib#2021)</span>
+                <span class="method-start">177157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=RegistrionFormTest status=SUCCESS method=RegistrationTest.RegistrionFormTest(java.l...)</span>
+                <span class="method-start">179774 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">179775 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumAssignment.tests.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">179918 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

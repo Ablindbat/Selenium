@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <parameter name="searchText" value="iphone"/>
+    <parameter name="password" value="Rajib#2021"/>
+    <parameter name="phoneNumber" value="9932456789"/>
+    <parameter name="name" value="Rajib"/>
+    <parameter name="email" value="xyz.abc@gmail.com"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.SeleniumAssignment.tests.HomeTest">
+        <methods>
+          <include name="navigationBarElectronicsClickTest"/>
+          <include name="setExtentReport"/>
+          <include name="contectWithUsFacebookClickTest"/>
+          <include name="contectWithUsTwitterClickTest"/>
+          <include name="attachScreenshot"/>
+          <include name="urlLunch"/>
+          <include name="contectWithUsInstagramClickTest"/>
+          <include name="close"/>
+          <include name="enterSearchText"/>
+          <include name="endTest"/>
+          <include name="navigationBarPrimeClickTest"/>
+          <include name="navigationBarMobilesClickTest"/>
+          <include name="navigationBarFashionClickTest"/>
+          <include name="navigationBarBestSellerClickTest"/>
+          <include name="initializationBrowsers"/>
+        </methods>
+      </class> <!-- com.SeleniumAssignment.tests.HomeTest -->
+      <class name="com.SeleniumAssignment.tests.RegistrationTest">
+        <methods>
+          <include name="setExtentReport"/>
+          <include name="attachScreenshot"/>
+          <include name="urlLunch"/>
+          <include name="close"/>
+          <include name="endTest"/>
+          <include name="RegistrionFormTest"/>
+          <include name="initializationBrowsers"/>
+        </methods>
+      </class> <!-- com.SeleniumAssignment.tests.RegistrationTest -->
+      <class name="com.SeleniumAssignment.tests.CareersTest">
+        <methods>
+          <include name="careersSearchJobTest"/>
+          <include name="setExtentReport"/>
+          <include name="attachScreenshot"/>
+          <include name="urlLunch"/>
+          <include name="close"/>
+          <include name="endTest"/>
+          <include name="initializationBrowsers"/>
+        </methods>
+      </class> <!-- com.SeleniumAssignment.tests.CareersTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 180.541 s <<< FAILURE! - in TestSuite
+com.SeleniumAssignment.tests.HomeTest.navigationBarElectronicsClickTest  Time elapsed: 4.028 s  <<< FAILURE!
+java.lang.AssertionError: expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in]
+	at com.SeleniumAssignment.tests.HomeTest.navigationBarElectronicsClickTest(HomeTest.java:44)
+
+com.SeleniumAssignment.tests.HomeTest.navigationBarFashionClickTest  Time elapsed: 7.656 s  <<< FAILURE!
+java.lang.AssertionError: expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Amazon Fashion: Clothing, Footwear and Accessories online for Men, Women and Kids]
+	at com.SeleniumAssignment.tests.HomeTest.navigationBarFashionClickTest(HomeTest.java:60)
+
+com.SeleniumAssignment.tests.HomeTest.navigationBarPrimeClickTest  Time elapsed: 10.205 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Prime"}
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02NJQY', ip: '192.168.32.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\RAJIBM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbefa5e2a2492ffd63a81f01fb44c30b
+*** Element info: {Using=link text, value=Prime}
+	at com.SeleniumAssignment.tests.HomeTest.navigationBarPrimeClickTest(HomeTest.java:51)
+

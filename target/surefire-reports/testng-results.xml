@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="8" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-19T15:34:32 IST" name="Suite" finished-at="2021-12-19T15:37:32 IST" duration-ms="179784">
+    <groups>
+      <group name="careers">
+        <method signature="CareersTest.careersSearchJobTest()[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f]" name="careersSearchJobTest" class="com.SeleniumAssignment.tests.CareersTest"/>
+      </group> <!-- careers -->
+      <group name="util">
+        <method signature="RegistrationTest.RegistrionFormTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" name="RegistrionFormTest" class="com.SeleniumAssignment.tests.RegistrationTest"/>
+      </group> <!-- util -->
+      <group name="top">
+        <method signature="HomeTest.enterSearchText(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="enterSearchText" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarBestSellerClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarBestSellerClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarElectronicsClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarElectronicsClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarFashionClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarFashionClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarMobilesClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarMobilesClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarPrimeClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarPrimeClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+      </group> <!-- top -->
+      <group name="footer">
+        <method signature="HomeTest.contectWithUsFacebookClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="contectWithUsFacebookClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.contectWithUsInstagramClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="contectWithUsInstagramClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.contectWithUsTwitterClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="contectWithUsTwitterClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+      </group> <!-- footer -->
+      <group name="sanity">
+        <method signature="CareersTest.careersSearchJobTest()[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f]" name="careersSearchJobTest" class="com.SeleniumAssignment.tests.CareersTest"/>
+        <method signature="HomeTest.contectWithUsFacebookClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="contectWithUsFacebookClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.contectWithUsInstagramClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="contectWithUsInstagramClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.contectWithUsTwitterClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="contectWithUsTwitterClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.enterSearchText(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="enterSearchText" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarBestSellerClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarBestSellerClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarElectronicsClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarElectronicsClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarFashionClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarFashionClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarMobilesClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarMobilesClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="HomeTest.navigationBarPrimeClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" name="navigationBarPrimeClickTest" class="com.SeleniumAssignment.tests.HomeTest"/>
+        <method signature="RegistrationTest.RegistrionFormTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" name="RegistrionFormTest" class="com.SeleniumAssignment.tests.RegistrationTest"/>
+      </group> <!-- sanity -->
+      <group name="registration">
+        <method signature="RegistrationTest.RegistrionFormTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" name="RegistrionFormTest" class="com.SeleniumAssignment.tests.RegistrationTest"/>
+      </group> <!-- registration -->
+    </groups>
+    <test started-at="2021-12-19T15:34:32 IST" name="Test" finished-at="2021-12-19T15:37:32 IST" duration-ms="179784">
+      <class name="com.SeleniumAssignment.tests.HomeTest">
+        <test-method is-config="true" signature="setExtentReport()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:34:32 IST" name="setExtentReport" finished-at="2021-12-19T15:34:32 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:34:32 IST" name="initializationBrowsers" finished-at="2021-12-19T15:34:34 IST" duration-ms="2634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:34:34 IST" name="urlLunch" finished-at="2021-12-19T15:34:42 IST" duration-ms="7402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="contectWithUsFacebookClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:34:42 IST" name="contectWithUsFacebookClickTest" finished-at="2021-12-19T15:35:12 IST" duration-ms="30438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contectWithUsFacebookClickTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:12 IST" name="attachScreenshot" finished-at="2021-12-19T15:35:12 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contectWithUsFacebookClickTest status=SUCCESS method=HomeTest.contectWithUsFacebookClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:12 IST" name="close" finished-at="2021-12-19T15:35:12 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:12 IST" name="initializationBrowsers" finished-at="2021-12-19T15:35:14 IST" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:14 IST" name="urlLunch" finished-at="2021-12-19T15:35:23 IST" duration-ms="9367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="contectWithUsInstagramClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:23 IST" name="contectWithUsInstagramClickTest" finished-at="2021-12-19T15:35:30 IST" duration-ms="7420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contectWithUsInstagramClickTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:30 IST" name="attachScreenshot" finished-at="2021-12-19T15:35:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contectWithUsInstagramClickTest status=SUCCESS method=HomeTest.contectWithUsInstagramClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:30 IST" name="close" finished-at="2021-12-19T15:35:31 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:31 IST" name="initializationBrowsers" finished-at="2021-12-19T15:35:32 IST" duration-ms="1186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:32 IST" name="urlLunch" finished-at="2021-12-19T15:35:36 IST" duration-ms="4436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="contectWithUsTwitterClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:36 IST" name="contectWithUsTwitterClickTest" finished-at="2021-12-19T15:35:45 IST" duration-ms="8715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contectWithUsTwitterClickTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:45 IST" name="attachScreenshot" finished-at="2021-12-19T15:35:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contectWithUsTwitterClickTest status=SUCCESS method=HomeTest.contectWithUsTwitterClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:45 IST" name="close" finished-at="2021-12-19T15:35:45 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:45 IST" name="initializationBrowsers" finished-at="2021-12-19T15:35:46 IST" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:46 IST" name="urlLunch" finished-at="2021-12-19T15:35:51 IST" duration-ms="5221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="enterSearchText(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:51 IST" name="enterSearchText" finished-at="2021-12-19T15:35:54 IST" duration-ms="2354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchText -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:54 IST" name="close" finished-at="2021-12-19T15:35:54 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:54 IST" name="attachScreenshot" finished-at="2021-12-19T15:35:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterSearchText status=SUCCESS method=HomeTest.enterSearchText(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:54 IST" name="initializationBrowsers" finished-at="2021-12-19T15:35:55 IST" duration-ms="1181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:35:55 IST" name="urlLunch" finished-at="2021-12-19T15:36:01 IST" duration-ms="5576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="navigationBarBestSellerClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:01 IST" name="navigationBarBestSellerClickTest" finished-at="2021-12-19T15:36:02 IST" duration-ms="1810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarBestSellerClickTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:02 IST" name="attachScreenshot" finished-at="2021-12-19T15:36:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationBarBestSellerClickTest status=SUCCESS method=HomeTest.navigationBarBestSellerClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:02 IST" name="close" finished-at="2021-12-19T15:36:03 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:03 IST" name="initializationBrowsers" finished-at="2021-12-19T15:36:04 IST" duration-ms="1149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:04 IST" name="urlLunch" finished-at="2021-12-19T15:36:10 IST" duration-ms="6158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="navigationBarElectronicsClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:10 IST" name="navigationBarElectronicsClickTest" finished-at="2021-12-19T15:36:14 IST" duration-ms="4036" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Electronics Store: Buy Electronics products Online at Best Prices in India at Amazon.in]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.SeleniumAssignment.tests.HomeTest.navigationBarElectronicsClickTest(HomeTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarElectronicsClickTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:14 IST" name="attachScreenshot" finished-at="2021-12-19T15:36:14 IST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationBarElectronicsClickTest status=FAILURE method=HomeTest.navigationBarElectronicsClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:14 IST" name="close" finished-at="2021-12-19T15:36:14 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:14 IST" name="initializationBrowsers" finished-at="2021-12-19T15:36:15 IST" duration-ms="1185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:15 IST" name="urlLunch" finished-at="2021-12-19T15:36:22 IST" duration-ms="6486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="navigationBarFashionClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:22 IST" name="navigationBarFashionClickTest" finished-at="2021-12-19T15:36:30 IST" duration-ms="7678" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Amazon Fashion: Clothing, Footwear and Accessories online for Men, Women and Kids]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Amazon.in Bestsellers: The most popular items on Amazon] but found [Amazon Fashion: Clothing, Footwear and Accessories online for Men, Women and Kids]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.SeleniumAssignment.tests.HomeTest.navigationBarFashionClickTest(HomeTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarFashionClickTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:30 IST" name="attachScreenshot" finished-at="2021-12-19T15:36:30 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationBarFashionClickTest status=FAILURE method=HomeTest.navigationBarFashionClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:30 IST" name="close" finished-at="2021-12-19T15:36:30 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:30 IST" name="initializationBrowsers" finished-at="2021-12-19T15:36:31 IST" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:31 IST" name="urlLunch" finished-at="2021-12-19T15:36:40 IST" duration-ms="9554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="navigationBarMobilesClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:40 IST" name="navigationBarMobilesClickTest" finished-at="2021-12-19T15:36:46 IST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarMobilesClickTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:46 IST" name="close" finished-at="2021-12-19T15:36:46 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:46 IST" name="attachScreenshot" finished-at="2021-12-19T15:36:46 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationBarMobilesClickTest status=SUCCESS method=HomeTest.navigationBarMobilesClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:46 IST" name="initializationBrowsers" finished-at="2021-12-19T15:36:47 IST" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:47 IST" name="urlLunch" finished-at="2021-12-19T15:36:50 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="navigationBarPrimeClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:36:50 IST" name="navigationBarPrimeClickTest" finished-at="2021-12-19T15:37:00 IST" duration-ms="10215" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Prime"}
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02NJQY', ip: '192.168.32.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\RAJIBM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbefa5e2a2492ffd63a81f01fb44c30b
+*** Element info: {Using=link text, value=Prime}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Prime"}
+  (Session info: headless chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02NJQY', ip: '192.168.32.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\RAJIBM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbefa5e2a2492ffd63a81f01fb44c30b
+*** Element info: {Using=link text, value=Prime}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.click(Unknown Source)
+at com.SeleniumAssignment.pages.HomePage.clickPrime(HomePage.java:75)
+at com.SeleniumAssignment.tests.HomeTest.navigationBarPrimeClickTest(HomeTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarPrimeClickTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:37:00 IST" name="attachScreenshot" finished-at="2021-12-19T15:37:00 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationBarPrimeClickTest status=FAILURE method=HomeTest.navigationBarPrimeClickTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:37:00 IST" name="close" finished-at="2021-12-19T15:37:00 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.SeleniumAssignment.tests.HomeTest@22e357dc]" started-at="2021-12-19T15:37:32 IST" name="endTest" finished-at="2021-12-19T15:37:32 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.SeleniumAssignment.tests.HomeTest -->
+      <class name="com.SeleniumAssignment.tests.CareersTest">
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f]" started-at="2021-12-19T15:37:00 IST" name="initializationBrowsers" finished-at="2021-12-19T15:37:01 IST" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f]" started-at="2021-12-19T15:37:01 IST" name="urlLunch" finished-at="2021-12-19T15:37:08 IST" duration-ms="6410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="careersSearchJobTest()[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f]" started-at="2021-12-19T15:37:08 IST" name="careersSearchJobTest" finished-at="2021-12-19T15:37:22 IST" duration-ms="14051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careersSearchJobTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f]" started-at="2021-12-19T15:37:22 IST" name="close" finished-at="2021-12-19T15:37:22 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f]" started-at="2021-12-19T15:37:22 IST" name="attachScreenshot" finished-at="2021-12-19T15:37:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=careersSearchJobTest status=SUCCESS method=CareersTest.careersSearchJobTest()[pri:0, instance:com.SeleniumAssignment.tests.CareersTest@20f5239f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.SeleniumAssignment.tests.CareersTest -->
+      <class name="com.SeleniumAssignment.tests.RegistrationTest">
+        <test-method is-config="true" signature="initializationBrowsers(java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" started-at="2021-12-19T15:37:22 IST" name="initializationBrowsers" finished-at="2021-12-19T15:37:23 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationBrowsers -->
+        <test-method is-config="true" signature="urlLunch()[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" started-at="2021-12-19T15:37:23 IST" name="urlLunch" finished-at="2021-12-19T15:37:29 IST" duration-ms="5633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLunch -->
+        <test-method signature="RegistrionFormTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" started-at="2021-12-19T15:37:29 IST" name="RegistrionFormTest" finished-at="2021-12-19T15:37:32 IST" duration-ms="2617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajib]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9932456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz.abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rajib#2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrionFormTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" started-at="2021-12-19T15:37:32 IST" name="attachScreenshot" finished-at="2021-12-19T15:37:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegistrionFormTest status=SUCCESS method=RegistrationTest.RegistrionFormTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.SeleniumAssignment.tests.RegistrationTest@57af006c]" started-at="2021-12-19T15:37:32 IST" name="close" finished-at="2021-12-19T15:37:32 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.SeleniumAssignment.tests.RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
