@@ -2,4 +2,5 @@
 *.xml linguist-detectable=false
 *.java linguist-detectable=true
 *.css linguist-detectable=false
+*.js linguist-detectable=false
 
